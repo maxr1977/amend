@@ -1,0 +1,274 @@
+    1  git config
+    2  git config
+    3  git -v
+    4  git config
+    5  git config  --global
+    6  git config  --global user
+    7  git config  --global user.name "Maksym Rechyn"
+    8  git config  --global user.name
+    9  git config  --global user.email "maxr19777@gmail.com"
+   10  git config  --global user.email
+   11  git config --list
+   12  cd
+   13  ssh-keygen
+   14  cat .ssh/id_ed25519.pub
+   15  ssh ec2-user@linux.itcareerhub.de
+   16  ssh ec2-user@linux.itcareerhub.de
+   17  ssh ec2-user@linux.itcareerhub.de
+   18  scp ec2-user@linux.itcareerhub.de:pwd
+   19  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/rechyn/file.txt .
+   20  ls
+   21  ssh ec2-user@linux.itcareerhub.de
+   22  ssh ec2-user@linux.itcareerhub.de
+   23  ssh ec2-user@linux.itcareerhub.de
+   24  echo "# HW Linux" >>README.md
+   25  git init
+   26  git status
+   27  git add .
+   28  git commit "add HW"
+   29  git branch -M main
+   30  git remote add origin git@github.com:maxr1977/linux.git
+   31  git push -u origin main
+   32  git remote -v
+   33  git status
+   34  git commit -m "add HW"
+   35  git remote add origin git@github.com:maxr1977/linux.git
+   36  git push -u origin main
+   37  cd
+   38  cat .ssh/id_ed25519.pub 
+   39  mkdir test
+   40  cd test
+   41  echo "Hello" >> README.md
+   42  git init
+   43  git branch
+   44  ls -la
+   45  cd .git/
+   46  ls -la
+   47  cd ..
+   48  git status
+   49  git add .
+   50  git status
+   51  git commit -m "add file README.md"
+   52  git branch -M main
+   53  git remote add origin git@github.com:maxr1977/test.git
+   54  git remote -v
+   55  git push -u origin main
+   56  ls -la
+   57  rm -rf .git
+   58  ls -la
+   59  touch text.txt
+   60  mkdir test2
+   61  git status
+   62  git init
+   63  git status
+   64  git add README.md text.txt 
+   65  git commit -m "add 2 file"
+   66  git branch -M main
+   67  git remote add origin git@github.com:maxr1977/test1.git
+   68  git remote -v
+   69  git push -u origin main
+   70  git status
+   71  nano REDME.md
+   72  git status
+   73  git add README.md
+   74  git status
+   75  ls -la
+   76  git add REDME.md
+   77  git status
+   78  git commit -m "add  file"
+   79  git push -u origin main
+   80  date >> REDME.md
+   81  ls
+   82  rm text.txt
+   83  git status
+   84  git add .
+   85  git commit -m "delet and chence"
+   86  git push -u origin main
+   87  git log
+   88  git branch
+   89  ssh ec2-user@linux.itcareerhub.de
+   90  ssh ec2-user@linux.itcareerhub.de
+   91  git clone git@github.com:maxr1977/bashscripts.git
+   92  cd bashscripts
+   93  ls -la
+   94  touch rechyn.txt
+   95  git add rechyn.txt
+   96  git status
+   97  git commit -m "added file rechyn.txt"
+   98  git push origin master
+   99  ssh ec2-user@linux.itcareerhub.de
+  100  ssh ec2-user@linux.itcareerhub.de
+  101  scp ec2-user@linux.itcareerhub.de:/tmp/file_max.txt .
+  102  scp ec2-user@linux.itcareerhub.de:/tmp/file_max.txt .
+  103  ssh ec2-user@linux.itcareerhub.de
+  104  git status
+  105  git add 12/
+  106  git status
+  107  git commit -m "Added new folder 12 with homework"
+  108  git push origin main
+  109  ssh ec2-user@linux.itcareerhub.de
+  110  ssh ec2-user@linux.itcareerhub.de
+  111  git init
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m "Added homework folder"
+  116  git branch -M main
+  117  git remote add origin git@github.com:maxr1977/html_css_js.git
+  118  git push -u origin main
+  119  git status
+  120  git add dz42/
+  121  git status
+  122  git commit -m "Added dz42 folder with homework"
+  123  git push origin main
+  124  git status
+  125  git add dz43/
+  126  git status
+  127  git commit -m "Added dz43 folder with homework"
+  128  git push origin main
+  129  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/rechyn/myfirstbashscript.sh .
+  130  ssh ec2-user@linux.itcareerhub.de
+  131  git status
+  132  git status
+  133  git add 15/
+  134  git status
+  135  git commit -m "Added folder 15 with homework"
+  136  git push origin main
+  137  git init
+  138  git status
+  139  git add .
+  140  git status
+  141  git commit -m "Initial commit"
+  142  git branch -M main
+  143  git remote add origin git@github.com:maxr1977/git-branch.git
+  144  git push -u origin main
+  145  git checkout -b gitignore
+  146  touch .gitignore
+  147  git status
+  148  git add .
+  149  git status
+  150  git commit -m "Added file .gitignore"
+  151  git push -u origin gitignore
+  152  ssh ec2-user@linux.itcareerhub.de
+  153  git config user.name
+  154  git config --global user.email
+  155  git log --pretty=fuller
+  156  git status
+  157  git config --global user.name
+  158  ssh ec2-user@linux.itcareerhub.de
+  159  git init
+  160  echo "test test" > file.txt
+  161  echo "read me" > README.md
+  162  git status
+  163  git add .
+  164  git status
+  165  git commit -m "fhfhfh"
+  166  git status
+  167  git log
+  168  git commit —amend -m "Added files README and file"
+  169  git log
+  170  git commit --amend -m "Added files README and file"
+  171  git log
+  172  git branch
+  173  git branch -M main
+  174  git branch
+  175  git checkout -b test
+  176  git log
+  177  git branch
+  178  history
+  179  echo "#archive\n *.rar" 
+  180  echo -e "#archive\n *.rar" 
+  181  echo -e "#archive\n *.rar" > .gitignore
+  182  echo "new data" >> file.txt 
+  183  git status
+  184  git add .
+  185  git status
+  186  git commit -m “changed file.txt and added .gitignore”
+  187  git commit -m "changed file.txt and added .gitignore"
+  188  git log
+  189  git checkaut main
+  190  git checkout main
+  191  echo "newest data" >> file.txt
+  192  touch 1.rar
+  193  git status
+  194  git add .
+  195  git status
+  196  git commit -m "new file 1.rar and new data in file.txt"
+  197  git merge test
+  198  git status
+  199  nano file.txt 
+  200  git status
+  201  git add file.txt 
+  202  git status
+  203  git commit -m "marge main test"
+  204  git log
+  205  git log --oneline --graph --all
+  206  git remote -v
+  207  git remote add origin git@github.com:maxr1977/050325.git
+  208  git push -u origin main
+  209  git status
+  210  git clone https://github.com/javascript-tutorial/server
+  211  git clone https://github.com/javascript-tutorial/engine server/modules/engine
+  212  cd server/repo/
+  213  git clone https://github.com/javascript-tutorial/ru.javascript.info
+  214  cd /c/Kurs IT/bookjava/server
+  215  cd ..
+  216  npm install
+  217  ./edit ru
+  218  cross-env PORT=8080 ./edit ru
+  219  set PORT=8080 ./edit ru
+  220  ./edit ru ru
+  221  node -v
+  222  npm install -g bunyan gulp@4
+  223  ./edit ru
+  224  printenv
+  225  printenv PORT
+  226  npm install -g sass
+  227  node -v
+  228  winget install Schniz.fnm
+  229  fnm install 22
+  230  node -v
+  231  node -v
+  232  npm -v
+  233  node -v
+  234  sass –version
+  235  npm install -g sass
+  236  sass –version
+  237  npm fund
+  238  sass –version
+  239  sass –version
+  240  sass –version
+  241  export PATH=~/.npm-global/bin:$PATH
+  242  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/rechyn/permission_checker.sh
+  243  scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/rechyn/permission_checker.sh .
+  244  ssh ec2-user@linux.itcareerhub.de
+  245  ssh ec2-user@linux.itcareerhub.de
+  246  git status
+  247  git add .
+  248  git status
+  249  git commit -m "Added folder 18 with homework"
+  250  git push origin main
+  251  ssh ec2-user@linux.itcareerhub.de
+  252  git@github.com:maxr1977/amend.git
+  253  git clone git@github.com:maxr1977/amend.git
+  254  cd /c/Kurs IT/Hausaufgaben/amend
+  255  cd c/Kurs IT/Hausaufgaben/amend
+  256  ls -la
+  257  cd /amend
+  258  cd c/Kurs_IT/Hausaufgaben/amend
+  259  git checkout -b feature
+  260  ls -la
+  261  nano README.md 
+  262  echo "*.tmp" >> .gitignore
+  263  git status
+  264  git add .
+  265  git commit - m "Add content to README and update gitignore"
+  266  git commit -m "Add content to README and update gitignore"
+  267  git push origin feature
+  268  git commit --amend -m "Add content to README and update gitignore amend"
+  269  git status
+  270  git push --force origin feature
+  271  git checkout main
+  272   git merge feature
+  273  git push origin main
+  274  history > history.txt
